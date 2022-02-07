@@ -18,7 +18,7 @@ namespace Homework_5._1
 
         public static string[] TakeWords(string words)
         {
-            string[] sentence = $"{words}".Split(' ', '.', ',', ';');            
+            string[] sentence = words.Split(' ');            
             return sentence;
         }
 
